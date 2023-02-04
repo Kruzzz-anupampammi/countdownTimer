@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Red Hat Text", sans-serif !important;
+  background-color: hsl(235, 16%, 14%) !important;
+  background-image: url(./images/bg-stars.svg);
+}
+
+.container {
+  width: 100%;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  text-transform: uppercase;
+  /* font-size: 10px !important; */
+  letter-spacing: 3px;
+}
+
+.counter {
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 150px;
+  align-items: center;
+  /* margin: 0 230px; */
+}
+
+.counter p {
+  background-color: hsl(236, 21%, 26%);
+  text-align: center;
+  margin: 10px;
+  padding: 15px 15px;
+  font-size: 50px;
+  font-weight: 700;
+  color: hsl(345, 95%, 68%);
+  border-radius: 10px;
+}
+
+.counter h3 {
+  text-align: center;
+  font-size: 14px;
+  color: hsl(237, 18%, 59%);
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+footer {
+  background-image: url(./images/pattern-hills.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  clear: both;
+  position: relative;
+  height: 150px;
+  margin-top: 350px;
+}
+
+table {
+  align-items: center;
+  margin: 0 auto;
+}
+
+table th {
+  padding: 15px;
+}
+
+.footer-text {
+  margin-top: 100px;
+  text-align: center;
+  color: hsl(237, 18%, 59%);
+}
+
+@media screen and (min-width: 1200px) {
+  .counter {
+    margin: 0 280px;
+  }
+}
